@@ -45,7 +45,7 @@
       "type": "string",
       "defaultValue": "",
       "metadata": {
-        "description": "The deployment name for the Davinci-003 model used by this application"
+        "description": "The deployment name for the AI model used by this application"
       }
     },
     "appServicesSkuName": {
@@ -183,8 +183,8 @@
       "properties": {
         "model": {
           "format": "OpenAI",
-          "name": "text-davinci-003",
-          "version": "1"
+          "name": "gpt-35-turbo",
+          "version": "0301"
         },
         "scaleSettings": {
           "scaleType": "Standard"
